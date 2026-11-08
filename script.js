@@ -32,7 +32,7 @@ const tickerItems = [
   ['GO', false],['PYTHON', false],['C / C++', true],['TYPESCRIPT', false]
 ];
 const track = document.getElementById('tickerTrack');
-const tickerHTML = tickerItems.map(([t,hl]) => `<span class="${hl?'tl':'hl'}">★ ${t}</span>`).join('');
+const tickerHTML = tickerItems.map(([t,hl]) => `<span class="${hl?'tl':'hl'}">• ${t}</span>`).join('');
 track.innerHTML = tickerHTML + tickerHTML;
 
 /* ---------- FOOTER MARQUEE ---------- */
