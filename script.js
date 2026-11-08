@@ -71,6 +71,7 @@ renderSkillGrid(document.getElementById('skillGrid'), skillGroups);
 renderSkillGrid(document.getElementById('embeddedGrid'), embeddedGroups);
 /* ---------- PROJECTS ---------- */
 const projects = [
+  {tag:'corp', name:'StripFlow - Schematic-to-Stripboard Auto-Router', date:'Oct 2026', role:'Developer', desc:'Zero-backend web CAD for schematic capture & stripboard layout: component library, Web-Worker simulated-annealing auto-routing, DRC, printable BOM, KiCad export & IndexedDB persistence.'},
   {tag:'corp', name:'Panel Designer - Electrical Control Panel CAD', date:'Oct 2026', role:'Developer', desc:'Browser-based visual electrical panel design: drag-drop DIN components, orthogonal auto-routing, real-time safety validation, auto-BOM, PDF export & localStorage persistence.'},
   {tag:'rnd', name:'M5Cardputer AI Chat Client (MicroPython/UIFlow2)', date:'Sep 2026', role:'Engineer', desc:'Lightweight MicroPython/UIFlow2 LLM chat client on M5Stack Cardputer: OpenAI-compatible APIs (OpenAI/Ollama/OpenRouter), captive web portal, audio feedback & memory-optimized history.'},
   {tag:'iot', name:'Protocol Studio - Serial UART Terminal', date:'Aug 2026', role:'Developer', desc:'Retro-styled serial UART terminal via Web Serial API (Nuxt 4 / Vue 3): baud, parity, flow control, text/hex, logging & settings persistence for zero-dependency hardware debugging.'},
