@@ -95,7 +95,7 @@ img{max-width:100%}
   background:var(--ink);color:var(--bg);margin:24px 0;padding:8px 0;white-space:nowrap}
 .ticker-track{display:inline-block;font-family:'Press Start 2P',monospace;font-size:9px;
   letter-spacing:2px;animation:scrollX 30s linear infinite}
-.ticker-track span{margin:0 18px}
+.ticker-track span{margin:0 18px;display:inline-flex;align-items:center;line-height:1}
 .ticker-track .hl{color:var(--gold)}
 .ticker-track .tl{color:var(--teal)}
 @keyframes scrollX{from{transform:translateX(0)}to{transform:translateX(-50%)}}
