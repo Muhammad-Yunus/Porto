@@ -118,8 +118,8 @@ img{max-width:100%}
 .check-list li{padding:5px 0 5px 24px;position:relative}
 .check-list li::before{content:"✔";position:absolute;left:0;color:var(--teal);font-weight:bold}
 .ascii-panel{text-align:center}
-.photo-frame{display:flex;justify-content:center;align-items:center;margin:0 auto 14px;max-width:50%}
-.photo-frame img{width:100%;height:auto;object-fit:contain;border:3px solid var(--ink);
+.photo-frame{display:flex;justify-content:center;align-items:center;margin:0 auto 14px}
+.photo-frame img{width:50%;height:100%;object-fit:contain;border:3px solid var(--ink);
   box-shadow:5px 5px 0 var(--shadow);border-radius:4px;image-rendering:pixelated;filter:contrast(1.05)}
 .ascii{font-family:'VT323',monospace;font-size:20px;color:var(--teal);line-height:1.1;margin-bottom:14px}
 .ascii-caption{font-family:'Press Start 2P',monospace;font-size:9px}
