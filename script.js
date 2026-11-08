@@ -71,7 +71,7 @@ renderSkillGrid(document.getElementById('skillGrid'), skillGroups);
 renderSkillGrid(document.getElementById('embeddedGrid'), embeddedGroups);
 /* ---------- PROJECTS ---------- */
 const projects = [
-  {tag:'iot', name:'Aerial Cellular Discovery & SDR Spectrum Analysis', date:'Jul–Aug 2026', role:'Engineer', desc:'Drone-payload 3G/4G/5G cellular analysis: Raspberry Pi + RTL-SDR/HackRF, GPS antenna decodes BTS signals. Nuxt 4/Vue 3 app with WebSocket live updates, PostgreSQL history, mission planning & Playwright e2e.'},
+  {tag:'iot', name:'Aerial Cellular Discovery & SDR Spectrum Analysis', date:'Jul–Aug 2026', role:'Engineer', desc:'Drone 3G/4G/5G analysis: Raspberry Pi + RTL-SDR/HackRF, antenna decodes BTS signals. Nuxt 4/Vue 3 app with WebSocket updates, PostgreSQL history, mission planning & Playwright e2e.'},
   {tag:'rnd', name:'Winamp-Inspired Embedded Audio Player (STM32H7)', date:'May 2026', role:'Engineer', desc:'Embedded audio player on STM32H753ZI: PCM5102A DAC via I2S for low-latency sound, FATFS streaming from SD card over SPI, retro Winamp-style GUI on ILI9341 TFT, and PA3110D2 audio amp.'},
   {tag:'iot', name:'Fullfill Smart Water Dispenser', date:'Feb–May 2026', role:'Developer', desc:'Cloud-connected smart water dispenser: ESP32-S3 handles cloud comms & NFC auth, Teensy 4.1 drives pump actuator, IR bottle detection, load-cell weighing, 5" LCD, and bidirectional UART with ESP32-S3.'},
   {tag:'iot', name:'HF Receiver via Tayloe QSD & VHF Downconversion', date:'Oct 2026', role:'Engineer', desc:'Tayloe QSD receiver for HF; 140 MHz VHF TX downconverted to 20 MHz IF (ADE-1 + ADF4351 LO), FST3253 mux on Si5351 quadrature clocks, LM4562 LPF + TPA3110 Class-D to dual speakers.'},
