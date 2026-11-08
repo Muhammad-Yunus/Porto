@@ -118,6 +118,9 @@ img{max-width:100%}
 .check-list li{padding:5px 0 5px 24px;position:relative}
 .check-list li::before{content:"✔";position:absolute;left:0;color:var(--teal);font-weight:bold}
 .ascii-panel{text-align:center}
+.photo-frame{display:flex;justify-content:center;margin-bottom:14px}
+.photo-frame img{width:170px;height:170px;object-fit:cover;border:3px solid var(--ink);
+  box-shadow:5px 5px 0 var(--shadow);border-radius:4px;image-rendering:pixelated;filter:contrast(1.05)}
 .ascii{font-family:'VT323',monospace;font-size:20px;color:var(--teal);line-height:1.1;margin-bottom:14px}
 .ascii-caption{font-family:'Press Start 2P',monospace;font-size:9px}
 .blinking{color:var(--gold);animation:blink 1s steps(1) infinite}
@@ -178,6 +181,7 @@ img{max-width:100%}
 .pt-rnd{background:var(--teal);color:var(--ink)}
 .pt-log{background:var(--gold);color:var(--ink)}
 .pt-iot{background:var(--ink2);color:var(--bg)}
+.pt-corp{background:var(--teal);color:var(--ink)}
 .proj-date{font-family:'Press Start 2P',monospace;font-size:8px;color:var(--ink2);margin-left:auto}
 .proj-card h3{font-family:'Press Start 2P',monospace;font-size:11px;line-height:1.5;color:var(--ink)}
 .proj-card .role{font-size:14px;opacity:.7;margin-bottom:8px}
