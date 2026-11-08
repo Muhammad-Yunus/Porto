@@ -37,7 +37,7 @@ track.innerHTML = tickerHTML + tickerHTML;
 
 /* ---------- FOOTER MARQUEE ---------- */
 document.getElementById('footerMarquee').textContent =
-  '▲ INSERT COIN ▲ YUNUS.EXE ▲ GAME OVER? NO — PRESS START ▲ SIDE QUEST: YOUR PROJECT ▲';
+  '▲ INSERT COIN ▲ KANG YUNUS ▲ GAME OVER? NO — PRESS START ▲ SIDE QUEST: YOUR PROJECT ▲';
 
 /* ---------- SKILL DATA ---------- */
 const skillGroups = [
