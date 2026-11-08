@@ -71,7 +71,7 @@ renderSkillGrid(document.getElementById('skillGrid'), skillGroups);
 renderSkillGrid(document.getElementById('embeddedGrid'), embeddedGroups);
 /* ---------- PROJECTS ---------- */
 const projects = [
-  {tag:'iot', name:'RF Tools - Passive RF Circuit & Smith Chart Suite', date:'Oct 2026', role:'Engineer', desc:'Serverless browser RF calculators (pure HTML/CSS/JS): Pi/Tee attenuator, LC filter (E24 snapping), L-match, toroid inductor & interactive Smith Chart, with Touchstone import & S21/S11 plotting.'},
+  {tag:'iot', name:'RF Tools - Passive RF Circuit & Smith Chart Suite', date:'Oct 2026', role:'Engineer', desc:'Browser RF calculators (pure HTML/CSS/JS): Pi/Tee attenuator, LC filter (E24 snapping), L-match, toroid inductor & Smith Chart, with Touchstone import & S21/S11 plotting.'},
   {tag:'corp', name:'StripFlow - Schematic-to-Stripboard Auto-Router', date:'Oct 2026', role:'Developer', desc:'Zero-backend web CAD for schematic capture & stripboard layout: component library, Web-Worker simulated-annealing auto-routing, DRC, printable BOM, KiCad export & IndexedDB persistence.'},
   {tag:'corp', name:'Panel Designer - Electrical Control Panel CAD', date:'Oct 2026', role:'Developer', desc:'Browser-based visual electrical panel design: drag-drop DIN components, orthogonal auto-routing, real-time safety validation, auto-BOM, PDF export & localStorage persistence.'},
   {tag:'rnd', name:'M5Cardputer AI Chat Client (MicroPython/UIFlow2)', date:'Sep 2026', role:'Engineer', desc:'Lightweight MicroPython/UIFlow2 LLM chat client on M5Stack Cardputer: OpenAI-compatible APIs (OpenAI/Ollama/OpenRouter), captive web portal, audio feedback & memory-optimized history.'},
