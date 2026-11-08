@@ -71,6 +71,7 @@ renderSkillGrid(document.getElementById('skillGrid'), skillGroups);
 renderSkillGrid(document.getElementById('embeddedGrid'), embeddedGroups);
 /* ---------- PROJECTS ---------- */
 const projects = [
+  {tag:'rnd', name:'Antminer L3+ Multi-OS Embedded Platform', date:'2025', role:'Engineer', desc:'Repurposed a used Antminer L3+ control board (TI AM3352 / ARM Cortex-A8) into a versatile embedded development platform supporting Baremetal, FreeRTOS, SYS/BIOS (TI-RTOS), and Embedded Linux via J-Link JTAG flashing & debugging. Includes a low-latency LwIP TCP echo server (StarterWare), real-time 360° LiDAR (LDS08RR) mapping to a SPI ILI9341 display via FreeRTOS queues, and LVGL GUI ported on top of a real-time OS.'},
   {tag:'rnd', name:'HF/VHF RF Mixer', date:'Nov 2025', role:'Engineer', desc:'High-performance HF/VHF RF mixer using MCL ADE-1 (Mini-Circuits). Optimized for low conversion loss, high isolation, wide frequency coverage.'},
   {tag:'logistic', name:'VEGA - Governance & Access', date:'Nov 2025', role:'Developer', desc:'Governance layer masking PII on internal APIs. User-level access control by location, department, role; runtime configuration UI for IT Ops.'},
   {tag:'logistic', name:'MOVER - Transport Management', date:'Oct 2025', role:'Developer', desc:'Vendor onboarding & bidding, scheduled transport orders, end-to-end tracking from pickup to destination (staging).'},
