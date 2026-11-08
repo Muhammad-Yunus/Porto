@@ -163,7 +163,7 @@ const projects = [
   {tag:'iot', name:'LoRaWAN Network (Water Utility)', date:'Mar 2017', role:'IoT Developer', desc:'Real-time water debit monitoring; Grafana 3D visualization with LoRaWAN sensor nodes.'},
 ];
 
-const tagMeta = {rnd:['[RnD]','pt-rnd','rnd'], logistic:['LOGISTIC','pt-log','logistic'], iot:['IOT / RF','pt-iot','iot'], corp:['CORPORATE','pt-corp','corp']};
+const tagMeta = {rnd:['[RnD]','pt-rnd','rnd'], logistic:['LOGISTIC','pt-log','logistic'], iot:['IOT / RF','pt-iot','iot'], corp:['OTHER','pt-corp','corp']};
 const pGrid = document.getElementById('projectGrid');
 pGrid.innerHTML = projects.map(p => {
   const m = tagMeta[p.tag];
