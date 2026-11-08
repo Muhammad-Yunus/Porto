@@ -72,7 +72,7 @@ renderSkillGrid(document.getElementById('embeddedGrid'), embeddedGroups);
 /* ---------- PROJECTS ---------- */
 const projects = [
   {tag:'rnd', name:'Colorlight 5A-75E RISC-V Soft Processor', date:'Aug 2026', role:'Engineer', desc:'Repurposed a Colorlight 5A-75E LED receiving card (Lattice ECP5-25F FPGA) into a functional RISC-V soft-processor dev platform — HW design in Propel Builder, firmware via Propel SDK, synthesis & bitstream upload via Lattice Diamond.'},
-  {tag:'rnd', name:'Antminer L3+ Multi-OS Embedded Platform', date:'Jul 2026', role:'Engineer', desc:'Antminer L3+ repurposed into a multi-OS dev platform (Baremetal→Linux) with LiDAR mapping & LVGL GUI.'},
+  {tag:'rnd', name:'Antminer L3+ Multi-OS Embedded Platform', date:'Jul 2026', role:'Engineer', desc:'Repurposed Antminer L3+ board (TI AM3352) into a multi-OS embedded dev platform via J-Link JTAG: Baremetal, FreeRTOS, TI-RTOS & Embedded Linux. Includes real-time LiDAR mapping and LVGL GUI on an RTOS.'},
   {tag:'rnd', name:'HF/VHF RF Mixer', date:'Nov 2025', role:'Engineer', desc:'High-performance HF/VHF RF mixer using MCL ADE-1 (Mini-Circuits). Optimized for low conversion loss, high isolation, wide frequency coverage.'},
   {tag:'logistic', name:'VEGA - Governance & Access', date:'Nov 2025', role:'Developer', desc:'Governance layer masking PII on internal APIs. User-level access control by location, department, role; runtime configuration UI for IT Ops.'},
   {tag:'logistic', name:'MOVER - Transport Management', date:'Oct 2025', role:'Developer', desc:'Vendor onboarding & bidding, scheduled transport orders, end-to-end tracking from pickup to destination (staging).'},
