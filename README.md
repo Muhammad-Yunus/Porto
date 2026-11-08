@@ -8,6 +8,8 @@ Retro-styled personal portfolio of Muhammad Yunus — Software & IoT / Embedded 
 ![Style](https://img.shields.io/badge/style-retro%20CRT-CC6B49?labelColor=#ECE6C2)
 ![Status](https://img.shields.io/badge/status-available-73BDA8?labelColor=#ECE6C2)
 
+**Live Demo:** [muhammad-yunus.github.io/Porto](https://muhammad-yunus.github.io/Porto/)
+
 ## Features
 
 - Terminal-style hero with typewriter role switcher
