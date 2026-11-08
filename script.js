@@ -71,6 +71,7 @@ renderSkillGrid(document.getElementById('skillGrid'), skillGroups);
 renderSkillGrid(document.getElementById('embeddedGrid'), embeddedGroups);
 /* ---------- PROJECTS ---------- */
 const projects = [
+  {tag:'rnd', name:'STM32L152RE LoRaWAN Sensor Node (AS923)', date:'Aug 2026', role:'Engineer', desc:'Ultra-low-power LoRaWAN node on STM32L152RE + SX1276 for AS923: Semtech LoRaMac-node stack with ADR tuning, dynamic channel mgmt & deep sleep. Battery-powered industrial telemetry.'},
   {tag:'iot', name:'LoPy LoRaWAN Environmental Sensor Node', date:'Jul 2026', role:'Engineer', desc:'Pycom LoPy + MicroPython LoRaWAN node streaming air quality (TVOC, eCO₂, AQI) and temperature/humidity as optimized binary payloads — low-power, long-range smart-building monitoring.'},
   {tag:'iot', name:'Aerial Cellular Discovery & SDR Spectrum Analysis', date:'Jul–Aug 2026', role:'Engineer', desc:'Drone 3G/4G/5G analysis: Raspberry Pi + RTL-SDR/HackRF, antenna decodes BTS signals. Nuxt 4/Vue 3 app with WebSocket updates, PostgreSQL history, mission planning & Playwright e2e.'},
   {tag:'rnd', name:'Winamp-Inspired Embedded Audio Player (STM32H7)', date:'May 2026', role:'Engineer', desc:'Embedded audio player on STM32H753ZI: PCM5102A DAC via I2S for low-latency sound, FATFS streaming from SD card over SPI, retro Winamp-style GUI on ILI9341 TFT, and PA3110D2 audio amp.'},
