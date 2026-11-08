@@ -52,7 +52,7 @@ const skillGroups = [
 const embeddedGroups = [
   {cat:'Embedded Hardware', cls:'tc', items:['NXP iMX RT','STM32','ESP32','Raspberry Pi','BeagleBone','MilkV Duo','Xilinx ZYNQ 7000','Lattice ECP5','Gowin FPGA','Teensy','nRF52840','Renesas RA4M1'], hot:['STM32','ESP32']},
   {cat:'Edge AI & Tools', cls:'gc', items:['OpenCV','PyTorch','TensorFlow','Ultralytics','Roboflow','ONNX','Edge Impulse','OpenMV','Lite-RT','TDL-SDK']},
-  {cat:'Embedded OS & Linux', cls:'', items:['Baremetal','FreeRTOS','RT-Thread','BuildRoot','OpenWRT','PetaLinux','Yocto']},
+  {cat:'Embedded OS & Linux', cls:'', items:['Baremetal','FreeRTOS','RT-Thread','BuildRoot','OpenWRT','PetaLinux','Yocto','Zephyr OS','TI SYS/BIOS']},
   {cat:'IoT Protocols & Platforms', cls:'', items:['LoRa / LoRaWAN','MQTT','Azure IoT','Balena','Thingboard','Node-RED'], hot:['LoRaWAN']},
   {cat:'CAD & GUI', cls:'gc', items:['KiCAD','LVGL','SPICE Sim']},
   {cat:'RF Engineering', cls:'tc', items:['RF Simulation (SPICE)','VNA & Spectrum Analyzer','RF Planning (Cloud RF)']},
