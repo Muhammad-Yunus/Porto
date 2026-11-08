@@ -71,6 +71,7 @@ renderSkillGrid(document.getElementById('skillGrid'), skillGroups);
 renderSkillGrid(document.getElementById('embeddedGrid'), embeddedGroups);
 /* ---------- PROJECTS ---------- */
 const projects = [
+  {tag:'iot', name:'Protocol Studio - Serial UART Terminal', date:'Aug 2026', role:'Developer', desc:'Retro-styled browser-based serial UART terminal via Web Serial API (Nuxt 4 / Vue 3): configurable baud, parity, flow control, text/hex modes, live logging & settings persistence for zero-dependency hardware debugging.'},
   {tag:'corp', name:'Client-Side Image Toolbox', date:'Aug 2026', role:'Developer', desc:'Privacy-first Nuxt 4 / Vue 3 image processing app: 100% client-side via Canvas + ONNX Runtime (DeepLab v3) for resizing, compression, background removal & format conversion — zero uploads or tracking.'},
   {tag:'corp', name:'Smart Building Digital Twin & Fleet Monitoring', date:'Aug 2026', role:'Developer', desc:'Digital twin + fleet monitoring on React 18 / Vite 5. Google Maps tracking, SMPLRSPACE visualization, HVAC/thermal, analytics (temp, humidity, CO₂) with trend charts, Glassmorphism UI.'},
   {tag:'rnd', name:'STM32L152RE LoRaWAN Sensor Node (AS923)', date:'Aug 2026', role:'Engineer', desc:'Ultra-low-power LoRaWAN node on STM32L152RE + SX1276 for AS923: Semtech LoRaMac-node stack with ADR tuning, dynamic channel mgmt & deep sleep. Battery-powered industrial telemetry.'},
