@@ -135,18 +135,18 @@ document.querySelectorAll('.pf-btn').forEach(btn => {
 
 /* ---------- CERTS ---------- */
 const certs = [
-  {name:'Associate Traditional Web Developer 11', date:'Aug 2019', id:'10477528575'},
-  {name:'Associate Reactive Developer', date:'Mar 2021', id:'1047750'},
-  {name:'Architecture Specialist', date:'Dec 2021', id:'1276356350'},
-  {name:'Associate Tech Lead', date:'Nov 2023', id:'10477534925'},
-  {name:'Professional DevOps Engineer', date:'Mar 2024', id:'5905536830'},
+  {name:'Associate Traditional Web Developer 11', date:'Aug 2019'},
+  {name:'Associate Reactive Developer', date:'Mar 2021'},
+  {name:'Architecture Specialist', date:'Dec 2021'},
+  {name:'Associate Tech Lead', date:'Nov 2023'},
+  {name:'Professional DevOps Engineer', date:'Mar 2024'},
 ];
 document.getElementById('certGrid').innerHTML = certs.map((c,i) => `
   <div class="cert-card reveal">
     <div class="cert-medal">${String(i+1).padStart(2,'0')}</div>
     <div>
       <h4>${c.name}</h4>
-      <span>${c.date} · ID ${c.id}</span>
+      <span>${c.date}</span>
     </div>
   </div>`).join('');
 
