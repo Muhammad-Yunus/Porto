@@ -71,7 +71,7 @@ renderSkillGrid(document.getElementById('skillGrid'), skillGroups);
 renderSkillGrid(document.getElementById('embeddedGrid'), embeddedGroups);
 /* ---------- PROJECTS ---------- */
 const projects = [
-  {tag:'iot', name:'Fullfill Smart Water Dispenser', date:'Feb–May 2026', role:'Developer', desc:'Cloud-connected dual-processor smart water dispenser: ESP32-S3 handles cloud comms & NFC auth, Teensy 4.1 drives pump actuator, IR bottle detection, precision load-cell weighing, 5" LCD, and reliable bidirectional UART with the ESP32-S3.'},
+  {tag:'iot', name:'Fullfill Smart Water Dispenser', date:'Feb–May 2026', role:'Developer', desc:'Cloud-connected smart water dispenser: ESP32-S3 handles cloud comms & NFC auth, Teensy 4.1 drives pump actuator, IR bottle detection, load-cell weighing, 5" LCD, and bidirectional UART with ESP32-S3.'},
   {tag:'iot', name:'HF Receiver via Tayloe QSD & VHF Downconversion', date:'Oct 2026', role:'Engineer', desc:'Tayloe QSD receiver for HF; 140 MHz VHF TX downconverted to 20 MHz IF (ADE-1 + ADF4351 LO), FST3253 mux on Si5351 quadrature clocks, LM4562 LPF + TPA3110 Class-D to dual speakers.'},
   {tag:'iot', name:'M5Cardputer-Si5351 DDS VFO & Quadrature Clock Source', date:'Oct 2026', role:'Engineer', desc:'M5Stack Cardputer (ESP32) + Si5351: portable DDS VFO (8 kHz–150 MHz). Three channels incl. quadrature for Tayloe detector, band navigation & themed GUI.'},
   {tag:'iot', name:'DIY 20dB Pi-Attenuator & RF Power Testing', date:'Oct 2026', role:'Engineer', desc:'Designed a DIY 20dB RF attenuator to reduce transmitter output. Verified attenuation & matching with NanoVNA, preparing interfacing to AD8317 power meter and spectrogram analysis on Zynq-7010.'},
