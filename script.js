@@ -71,6 +71,7 @@ renderSkillGrid(document.getElementById('skillGrid'), skillGroups);
 renderSkillGrid(document.getElementById('embeddedGrid'), embeddedGroups);
 /* ---------- PROJECTS ---------- */
 const projects = [
+  {tag:'iot', name:'DIY 20dB Pi-Attenuator & RF Power Testing', date:'Oct 2026', role:'Engineer', desc:'Designed & tested a DIY 20dB RF attenuator via custom web-based design tooling to safely reduce transmitter output. Verified attenuation & impedance matching with a NanoVNA, preparing high-power signal interfacing from HT Eracom UV-K1 to AD8317 power meter and high-frequency spectrogram analysis on Zynq-7010 + AD9226.'},
   {tag:'rnd', name:'Colorlight 5A-75E RISC-V Soft Processor', date:'Aug 2026', role:'Engineer', desc:'Repurposed a Colorlight 5A-75E LED card (Lattice ECP5-25F FPGA) into a RISC-V soft-processor platform: HW in Propel Builder, firmware via Propel SDK, bitstream via Diamond.'},
   {tag:'rnd', name:'Antminer L3+ Multi-OS Embedded Platform', date:'Jul 2026', role:'Engineer', desc:'Repurposed Antminer L3+ (TI AM3352) into a multi-OS dev platform via J-Link JTAG: Baremetal, FreeRTOS, TI-RTOS & Embedded Linux. Includes real-time LiDAR mapping and LVGL GUI on RTOS.'},
   {tag:'rnd', name:'HF/VHF RF Mixer', date:'Nov 2025', role:'Engineer', desc:'High-performance HF/VHF RF mixer using MCL ADE-1 (Mini-Circuits). Optimized for low conversion loss, high isolation, wide frequency coverage.'},
