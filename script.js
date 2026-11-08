@@ -71,6 +71,7 @@ renderSkillGrid(document.getElementById('skillGrid'), skillGroups);
 renderSkillGrid(document.getElementById('embeddedGrid'), embeddedGroups);
 /* ---------- PROJECTS ---------- */
 const projects = [
+  {tag:'corp', name:'Smart Building Digital Twin & Fleet Monitoring', date:'Aug 2026', role:'Developer', desc:'Real-time smart building digital twin + multi-site fleet monitoring on React 18 / Vite 5. Google Maps multi-site tracking, SMPLRSPACE 3D floor visualization, live HVAC/thermal overlays, sensor analytics (temp, humidity, CO₂, energy) with Bézier trend charts, and Glassmorphism UI.'},
   {tag:'rnd', name:'STM32L152RE LoRaWAN Sensor Node (AS923)', date:'Aug 2026', role:'Engineer', desc:'Ultra-low-power LoRaWAN node on STM32L152RE + SX1276 for AS923: Semtech LoRaMac-node stack with ADR tuning, dynamic channel mgmt & deep sleep. Battery-powered industrial telemetry.'},
   {tag:'rnd', name:'LoPy LoRaWAN Environmental Sensor Node', date:'Jul 2026', role:'Engineer', desc:'Pycom LoPy + MicroPython LoRaWAN node streaming air quality (TVOC, eCO₂, AQI) and temperature/humidity as optimized binary payloads — low-power, long-range smart-building monitoring.'},
   {tag:'iot', name:'Aerial Cellular Discovery & SDR Spectrum Analysis', date:'Jul–Aug 2026', role:'Engineer', desc:'Drone 3G/4G/5G analysis: Raspberry Pi + RTL-SDR/HackRF, antenna decodes BTS signals. Nuxt 4/Vue 3 app with WebSocket updates, PostgreSQL history, mission planning & Playwright e2e.'},
